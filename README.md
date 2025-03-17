@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![FR-Framework Logo](https://via.placeholder.com/200x200)
+![Energy Prediction System](images/image.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
@@ -307,13 +307,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 -  [dlib](http://dlib.net/) for face detection and landmark detection
 -  [OpenCV](https://opencv.org/) for image processing functionality
 -  [FastAPI](https://fastapi.tiangolo.com/) for the API implementation
--  All open-source contributors who've helped make this project better
 
 ## Contact
 
--  Project Link: [https://github.com/yourusername/FR-Framework](https://github.com/yourusername/FR-Framework)
--  Developer Email: [your.email@example.com](mailto:your.email@example.com)
--  Twitter: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
+-  Project Link: [https://github.com/yourusername/FR-Framework](https://github.com/muhkartal/FR-Framework)
+-  Developer Website: [https://kartal.dev/m](https://kartal.dev/m)
 
 ---
 
