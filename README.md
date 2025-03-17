@@ -213,11 +213,6 @@ The FR-Framework provides a comprehensive REST API for integration with other ap
 -  `POST /analyze` - Analyze facial attributes
 -  `POST /video` - Process a video file
 
-For detailed API documentation, run the API server and visit:
-
--  Swagger UI: `http://localhost:8000/docs`
--  ReDoc: `http://localhost:8000/redoc`
-
 ## Documentation
 
 -  [API Reference](docs/api/index.md)
@@ -311,7 +306,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 -  Project Link: [https://github.com/yourusername/FR-Framework](https://github.com/muhkartal/FR-Framework)
--  Developer Website: [https://kartal.dev/m](https://kartal.dev/m)
+-  Developer Website: [https://kartal.dev/m](https://kartal.dev/)
 
 ---
 
