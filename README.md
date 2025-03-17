@@ -220,11 +220,11 @@ The FR-Framework provides a comprehensive REST API for integration with other ap
 -  [Examples](docs/examples)
 -  [Docker Guide](DOCKER.md)
 
-## System Architecture
+<!-- ## System Architecture
 
 <div align="center">
   <img src="https://via.placeholder.com/800x400?text=FR-Framework+Architecture" alt="System Architecture" width="80%"/>
-</div>
+</div> -->
 
 FR-Framework is designed with modularity and extensibility in mind:
 
