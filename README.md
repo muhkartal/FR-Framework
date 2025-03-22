@@ -306,7 +306,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 -  Project Link: [https://github.com/yourusername/FR-Framework](https://github.com/muhkartal/FR-Framework)
--  Developer Website: [https://kartal.dev/m](https://kartal.dev/)
+-  Developer Website: [https://kartal.dev/](https://kartal.dev/)
 
 ---
 
