@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="images/image.png" alt="Energy Prediction System" width="70%"/>
+<img src="images/image.png" alt="FR-Framework" width="70%"/>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
@@ -21,6 +21,12 @@
 
 FR-Framework is a powerful, modular toolkit for face recognition tasks, offering everything from basic face detection to advanced facial analytics. Built with flexibility and performance in mind, it provides a complete solution for developers, researchers, and enterprises working with facial recognition technology.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/dark-mode.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/light-mode.pngg">
+  <img alt="Fallback image description" src="images/dark-mode.png">
+</picture>
+
 ## Key Features
 
 -  **Modular Architecture**: Use only the components you need
@@ -33,6 +39,20 @@ FR-Framework is a powerful, modular toolkit for face recognition tasks, offering
 -  **Docker Support**: Simple deployment in containers
 -  **Extensive Documentation**: Tutorials, API references, and examples
 
+## Technology Stack
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center"><img src="https://img.icons8.com/color/48/000000/python.png"/><br>Python</td>
+    <td align="center"><img src="https://img.icons8.com/color/48/000000/opencv.png"/><br>OpenCV</td>
+    <td align="center"><img src="https://dlib.net/dlib-logo.png" height="48"/><br>dlib</td>
+    <td align="center"><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" height="48"/><br>FastAPI</td>
+    <td align="center"><img src="https://img.icons8.com/color/48/000000/docker.png"/><br>Docker</td>
+  </tr>
+</table>
+</div>
+
 ## Performance Benchmarks
 
 | Model     | Speed (ms/image) | Accuracy | Platform          |
@@ -43,16 +63,71 @@ FR-Framework is a powerful, modular toolkit for face recognition tasks, offering
 
 \*Benchmarks based on 1080p images with varying numbers of faces
 
-## Components
+## Framework Components
 
-| Module      | Description                                       |
-| ----------- | ------------------------------------------------- |
-| fr-photo    | Photo-based face detection and recognition        |
-| fr-landmark | Facial landmark detection                         |
-| fr-analyze  | Face analysis (blur detection, orientation, etc.) |
-| fr-live     | Real-time face recognition from camera feed       |
-| fr-video    | Video processing for face recognition             |
-| fr-system   | Core system functionality (coming soon)           |
+<div align="center">
+<table>
+  <tr>
+    <th>Module</th>
+    <th>Description</th>
+    <th>Key Features</th>
+  </tr>
+  <tr>
+    <td><strong>fr-photo</strong></td>
+    <td>Photo-based face detection and recognition</td>
+    <td>
+      • Multiple detection models (HOG/CNN)<br>
+      • Face embedding generation<br>
+      • Recognition against known faces
+    </td>
+  </tr>
+  <tr>
+    <td><strong>fr-landmark</strong></td>
+    <td>Facial landmark detection</td>
+    <td>
+      • 68-point facial landmark detection<br>
+      • Facial geometry analysis<br>
+      • Feature point extraction
+    </td>
+  </tr>
+  <tr>
+    <td><strong>fr-analyze</strong></td>
+    <td>Face analysis (blur detection, orientation, etc.)</td>
+    <td>
+      • Image quality assessment<br>
+      • Head pose estimation<br>
+      • Eye state analysis (open/closed)
+    </td>
+  </tr>
+  <tr>
+    <td><strong>fr-live</strong></td>
+    <td>Real-time face recognition from camera feed</td>
+    <td>
+      • Camera integration<br>
+      • Low-latency processing<br>
+      • Live face tracking
+    </td>
+  </tr>
+  <tr>
+    <td><strong>fr-video</strong></td>
+    <td>Video processing for face recognition</td>
+    <td>
+      • Temporal face tracking<br>
+      • Timeline analysis<br>
+      • Appearance/disappearance events
+    </td>
+  </tr>
+  <tr>
+    <td><strong>fr-system</strong></td>
+    <td>Core system functionality (coming soon)</td>
+    <td>
+      • Configuration management<br>
+      • Model versioning<br>
+      • Performance monitoring
+    </td>
+  </tr>
+</table>
+</div>
 
 ## Comparison with Other Libraries
 
@@ -84,7 +159,7 @@ FR-Framework is a powerful, modular toolkit for face recognition tasks, offering
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/FR-Framework.git
+git clone https://github.com/muhkartal/FR-Framework.git
 cd FR-Framework
 
 # Install dependencies
@@ -107,6 +182,10 @@ docker-compose up -d fr-api
 For more details on Docker deployment, see [DOCKER.md](DOCKER.md).
 
 ## Quick Start
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/muhkartal/FR-Framework/main/docs/images/workflow_example.png" alt="Workflow Example" width="75%"/>
+</div>
 
 ### Complete Workflow Example
 
@@ -208,10 +287,37 @@ For more examples, see the [Tutorials](docs/tutorials) and [Examples](docs/examp
 
 The FR-Framework provides a comprehensive REST API for integration with other applications:
 
--  `POST /detect` - Detect faces in an image
--  `POST /landmarks` - Detect facial landmarks
--  `POST /analyze` - Analyze facial attributes
--  `POST /video` - Process a video file
+<div align="center">
+<table>
+  <tr>
+    <th>Endpoint</th>
+    <th>Method</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>/detect</code></td>
+    <td><code>POST</code></td>
+    <td>Detect faces in an image</td>
+  </tr>
+  <tr>
+    <td><code>/landmarks</code></td>
+    <td><code>POST</code></td>
+    <td>Detect facial landmarks</td>
+  </tr>
+  <tr>
+    <td><code>/analyze</code></td>
+    <td><code>POST</code></td>
+    <td>Analyze facial attributes</td>
+  </tr>
+  <tr>
+    <td><code>/video</code></td>
+    <td><code>POST</code></td>
+    <td>Process a video file</td>
+  </tr>
+</table>
+</div>
+
+For detailed API documentation, see the [API Reference](docs/api/index.md).
 
 ## Documentation
 
@@ -219,20 +325,6 @@ The FR-Framework provides a comprehensive REST API for integration with other ap
 -  [Tutorials](docs/tutorials)
 -  [Examples](docs/examples)
 -  [Docker Guide](DOCKER.md)
-
-<!-- ## System Architecture
-
-<div align="center">
-  <img src="https://via.placeholder.com/800x400?text=FR-Framework+Architecture" alt="System Architecture" width="80%"/>
-</div> -->
-
-FR-Framework is designed with modularity and extensibility in mind:
-
-1. **Core Modules**: Specialized components for different face recognition tasks
-2. **Common Utilities**: Shared functionality across all modules
-3. **API Layer**: RESTful interface for external applications
-4. **Docker Containers**: Isolated deployment environments
-5. **Client Libraries**: Easy integration with other systems
 
 ## Requirements
 
@@ -271,7 +363,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/FR-Framework.git
+git clone https://github.com/muhkartal/FR-Framework.git
 cd FR-Framework
 
 # Create a virtual environment
@@ -305,7 +397,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
--  Project Link: [https://github.com/yourusername/FR-Framework](https://github.com/muhkartal/FR-Framework)
+-  Project Link: [https://github.com/muhkartal/FR-Framework](https://github.com/muhkartal/FR-Framework)
 -  Developer Website: [https://kartal.dev/](https://kartal.dev/)
 
 ---
