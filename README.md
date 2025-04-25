@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="images/image.png" alt="FR-Framework" width="70%"/>
+<!-- <img src="images/image.png" alt="FR-Framework" width="70%"/> -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
