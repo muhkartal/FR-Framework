@@ -181,11 +181,11 @@ docker-compose up -d fr-api
 
 For more details on Docker deployment, see [DOCKER.md](DOCKER.md).
 
-## Quick Start
+<!-- ## Quick Start
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/muhkartal/FR-Framework/main/docs/images/workflow_example.png" alt="Workflow Example" width="75%"/>
-</div>
+</div> -->
 
 ### Complete Workflow Example
 
